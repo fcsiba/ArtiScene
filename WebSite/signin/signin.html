@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Sign In Form </title>
+
+
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+
+
+</head>
+
+<body>
+
+
+
+	<form method="POST">
+
+		<h2> <strong>Artisian</strong><br> <br> Sign In</h2>
+		<p>
+			<label for="Email" class="floatLabel">Email</label>
+			<input id="Email" name="User Name" type="text">
+		</p>
+		<p>
+			<label for="password" class="floatLabel">Password</label>
+			<input id="password" name="password" type="password">
+			<span>Enter a password longer than 4 characters</span>
+		</p>
+
+		<button class="w3-button w3-padding-large w3-block w3-black w3-large" id="subbtn" type="button" onclick="submitButtonAction()" >
+			Sign In
+		</button>
+
+		<p>
+			<!-- <input  type="button" value="Sign In" id="submit" onclick="submitButtonAction()"> -->
+		</p>
+	</form>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+	<script src="js/index.js"></script>
+</body>
+
+</html>

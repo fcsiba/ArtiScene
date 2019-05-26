@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Write a Post </title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+    
+
+    <form>
+    <h2> <strong>Edit Profile Information</strong></h2>
+    <ul class="form-style-1">
+        <li>
+            <label>Address </label>
+            <input type="address" name="field1" class="field-long" id="address" />
+        </li>
+        <li>
+            <label>About </label>
+            <textarea name="field2" id="field2" class="field-long field-textarea" id="about"></textarea>
+        </li>
+        <li>
+            <label>Facebook Link </label>
+            <input type="fblink" name="field3" class="field-long" id="fb"/>
+        </li>
+        <li>
+            <label>LinkedIn Link </label>
+            <input type="linkedlink" name="field4" class="field-long" id="link"/>
+        </li>
+        <li>
+            <label>GitHub Link </label>
+            <input type="gitlink" name="field5" class="field-long" id="git"/>
+        </li>
+        <div class="form-horizontal">
+            <li>
+                <input type="submit" value="Post" />
+            </li>
+            <a href="../profilebootstrap/indexx.html" class="button" onclick="submitButtonAction()">Back</a>
+        </div>    
+    </ul>
+    </form>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>    

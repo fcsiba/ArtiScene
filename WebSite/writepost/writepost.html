@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Write a Post </title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+    
+
+    <form>
+    <h2> <strong>Post Job</strong></h2>
+    <ul class="form-style-1">
+        <li>
+            <label>Title </label>
+            <input type="title" name="field1" class="field-long" id="title" />
+        </li>
+        <li>
+            <label>Duration </label>
+            <input type="duration" name="field2" class="field-long" id="duration" />
+        </li>
+        <li>
+            <label>Amount </label>
+            <input type="amount" name="field3" class="field-long" id="amount" />
+        </li>
+        <li>
+            <label>Skill</label>
+            <select name="field4" class="field-select" id="skill">
+            <option value="Advertise">Advertise</option>
+            <option value="Partnership">Partnership</option>
+            <option value="General Question">General</option>
+            </select>
+        </li>
+        <li>
+            <label>Description </label>
+            <textarea name="field5" id="field5" class="field-long field-textarea" id="description"></textarea>
+        </li>
+        <div class="form-horizontal">
+            <li>
+                <input type="button" value="Post" id="post" onclick="submitButtonAction()"/>
+            </li>
+            <a href="../profilebootstrap/indexx.html" class="button">Back</a>
+        </div>    
+    </ul>
+    </form>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>    
